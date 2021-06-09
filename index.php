@@ -1,5 +1,5 @@
 <?php
-    require_once 'includes/autoload.php';
+    require_once 'classes/Exercicio6/Exercicio6.php';
 
     $fieldOptions = [
         'Technical support',
@@ -11,7 +11,7 @@
         'Software engineer',
     ];
 
-    $role = new Exercicio6\Exercicio6();
+    $role = new Exercicio6();
     $role->setFieldName('role');
     $role->setFieldOptions($fieldOptions);
 

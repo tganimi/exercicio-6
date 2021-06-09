@@ -1,7 +1,5 @@
 <?php
 
-namespace Exercicio6;
-
 class Exercicio6
 {
     protected $fieldOptions;
